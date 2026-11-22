@@ -1,0 +1,764 @@
+{
+  "meta": {
+    "title": "CRM for auto repair shops, tire services and detailing — booking, work orders, parts, POS",
+    "description": "Cloud CRM for auto service: online booking, work orders, digital vehicle inspection, parts inventory, payments with fiscal receipts and technician payroll. 14-day free trial, no card required.",
+    "ogAlt": "Cloud CRM for auto repair shops"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "features": "Features",
+    "audience": "Who it's for",
+    "pricing": "Pricing",
+    "integrations": "Integrations",
+    "faq": "FAQ",
+    "login": "Log in",
+    "cta": "Start free trial",
+    "openMenu": "Open menu",
+    "closeMenu": "Close menu",
+    "language": "Language"
+  },
+  "hero": {
+    "badge": "Cloud CRM for auto service",
+    "title": "Your whole repair shop in one system: from booking to fiscal receipt and technician payroll",
+    "subtitle": "Replace paper work orders, spreadsheets and dozens of messenger chats with one workspace for the owner, the service advisor and the technicians on the floor.",
+    "ctaPrimary": "Try free for 14 days",
+    "ctaSecondary": "Book a demo",
+    "notes": [
+      "No card required",
+      "No setup fee",
+      "Live in 1 day"
+    ],
+    "mockLabel": "Example work order: car and plate, jobs, repair stages, customer approval and fiscal receipt"
+  },
+  "pains": {
+    "eyebrow": "Sound familiar?",
+    "title": "A repair shop run on a notebook, Excel and Viber",
+    "subtitle": "That's how most 1–4 bay shops work when the owner checks cars in personally. Here's what changes in the first week.",
+    "before": "Before",
+    "after": "After",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Lost bookings",
+        "before": "A customer books via Viber, the admin forgets to copy it to the notebook — the bay sits empty and the customer goes elsewhere.",
+        "after": "Every booking from the website, phone and messengers lands in the bay calendar. Customers get a reminder the day before."
+      },
+      {
+        "icon": "camera",
+        "title": "Damage disputes",
+        "before": "“This scratch wasn't here!” — and no way to prove it was there before the repair.",
+        "after": "Photos, mileage and a body diagram are recorded at check-in; the customer signs on their phone."
+      },
+      {
+        "icon": "package",
+        "title": "“Where's that part?”",
+        "before": "The part was ordered, but nobody knows whether it arrived or which car it's reserved for.",
+        "after": "Parts are reserved against the work order, written off automatically, and stock levels are live."
+      },
+      {
+        "icon": "calculator",
+        "title": "Manual payroll",
+        "before": "Month-end means an evening with a calculator and arguments with technicians about percentages.",
+        "after": "Payroll calculates itself: percentage of labor, labor hours, bonuses. Technicians see their earnings in the app."
+      }
+    ]
+  },
+  "process": {
+    "eyebrow": "How it works",
+    "title": "From the first call to payday — one work order",
+    "steps": [
+      {
+        "title": "Booking",
+        "text": "Online or by phone — straight into the bay calendar."
+      },
+      {
+        "title": "Check-in",
+        "text": "Photos, mileage, body diagram and customer signature."
+      },
+      {
+        "title": "Diagnosis & estimate",
+        "text": "Labor and parts with prices in minutes."
+      },
+      {
+        "title": "Online approval",
+        "text": "The customer approves the estimate via a link."
+      },
+      {
+        "title": "Repair",
+        "text": "Technicians update status and photos from their phone."
+      },
+      {
+        "title": "Payment + receipt",
+        "text": "Cash, card or payment link — fiscal receipt issued automatically."
+      }
+    ],
+    "start": "Customer calls",
+    "finish": "Car handed over, payroll accrued"
+  },
+  "depth": {
+    "eyebrow": "Built for cars",
+    "title": "Automotive depth that “repair-anything” CRMs don't have",
+    "subtitle": "Generic systems treat a phone, a bike and a car the same way. Every detail here is built for a repair shop.",
+    "label": "Car diagram with callouts: what the system knows about a vehicle",
+    "items": [
+      {
+        "id": "vin",
+        "title": "VIN and plate",
+        "text": "The vehicle card fills in from the VIN; search by plate takes a second."
+      },
+      {
+        "id": "mileage",
+        "title": "Mileage at every check-in",
+        "text": "A required work order field with a mileage chart. If the odometer “goes down”, you get a warning."
+      },
+      {
+        "id": "service",
+        "title": "Mileage-based service",
+        "text": "Oil, filter and timing-belt intervals — the customer is reminded when service is due."
+      },
+      {
+        "id": "hours",
+        "title": "Labour hours",
+        "text": "Labour hour × rate by job category and vehicle class. Booking length is calculated for you."
+      },
+      {
+        "id": "parts",
+        "title": "Cross-references and OEM",
+        "text": "Find a part by its OEM number or an equivalent — and see right away what's in stock."
+      },
+      {
+        "id": "act",
+        "title": "Completion certificate",
+        "text": "Plus a vehicle handover form, a warranty card and deferred work for the next visit."
+      }
+    ]
+  },
+  "features": {
+    "eyebrow": "Modules",
+    "title": "Everything a shop runs on — in one plan",
+    "subtitle": "Modules are connected: a booking becomes a work order, the order draws down stock, a payment produces a receipt and payroll.",
+    "sheet": "System specification",
+    "rev": "rev. 2026",
+    "items": [
+      {
+        "id": "orders",
+        "title": "Work orders & kanban",
+        "points": [
+          "Statuses from check-in to handover",
+          "Labor, parts and labor hours in one document",
+          "Print or send the work order to the customer"
+        ]
+      },
+      {
+        "id": "booking",
+        "title": "Online booking & bay calendar",
+        "points": [
+          "Booking widget for your website and Google profile",
+          "Weekly load of bays and technicians",
+          "SMS and Telegram reminders"
+        ]
+      },
+      {
+        "id": "estimates",
+        "title": "Estimates with online approval",
+        "points": [
+          "Customers approve work via a link",
+          "Partial approval supported",
+          "E-signature and change history"
+        ]
+      },
+      {
+        "id": "inspection",
+        "title": "Digital inspection",
+        "points": [
+          "Check-in and diagnostic checklists",
+          "Photos and videos attached to the work order",
+          "Body diagram with damage markers"
+        ]
+      },
+      {
+        "id": "stock",
+        "title": "Parts inventory",
+        "points": [
+          "Reservation and automatic write-off",
+          "Purchasing and minimum stock levels",
+          "Parts lookup by VIN"
+        ]
+      },
+      {
+        "id": "payments",
+        "title": "Cash desk, online payments, fiscal receipts",
+        "points": [
+          "Cash, card terminal, payment links",
+          "Fiscal receipts: Checkbox, Vchasno.Kasa, Cashalot",
+          "Shift cash desk and cash collection"
+        ]
+      },
+      {
+        "id": "payroll",
+        "title": "Technician payroll",
+        "points": [
+          "Percentage of labor or labor hours",
+          "Bonuses, penalties, advances",
+          "Transparent breakdown for every technician"
+        ]
+      },
+      {
+        "id": "clients",
+        "title": "Customers & vehicles",
+        "points": [
+          "History by VIN and license plate",
+          "Service and seasonal tire change reminders",
+          "Segments and mailings"
+        ]
+      }
+    ]
+  },
+  "numbers": {
+    "eyebrow": "Owner reports",
+    "title": "Numbers you can trust",
+    "text": "In other CRMs reports often drift: a backdated payment lands in the current month and a cancelled order still shows profit. We count the way an accountant does.",
+    "rules": [
+      {
+        "title": "Revenue by payment date",
+        "text": "October's money stays in October, even if it was entered on 2 November."
+      },
+      {
+        "title": "Cancelled order — zero profit",
+        "text": "An unsuccessful work order doesn't inflate profit. Only diagnostics is charged, if any."
+      },
+      {
+        "title": "Closed retroactively — report recalculated",
+        "text": "Closing an order retroactively (with the right role permission) updates that period's reports at once."
+      }
+    ],
+    "points": [
+      "Profit on every work order",
+      "Bay utilisation by day",
+      "Technician output in labour hours",
+      "Who owes what"
+    ],
+    "receipt": {
+      "title": "Report · October",
+      "rows": [
+        [
+          "Revenue (by payment date)",
+          "486 200 ₴"
+        ],
+        [
+          "Parts at cost",
+          "−171 900 ₴"
+        ],
+        [
+          "Technician payroll",
+          "−97 300 ₴"
+        ],
+        [
+          "Cancelled orders",
+          "0 ₴"
+        ]
+      ],
+      "total": "Gross profit",
+      "totalValue": "217 000 ₴",
+      "late": "Paid 31.10, entered 02.11",
+      "lateTag": "→ in October",
+      "stamp": "Matches the till"
+    }
+  },
+  "clientPage": {
+    "eyebrow": "Telegram-first",
+    "title": "Customers get every update in their messenger — and stop calling every hour",
+    "text": "Status, technician photos, the estimate, payment and service reminders — via a bot and a repair page. On every plan, not just the expensive one.",
+    "points": [
+      "Live repair status",
+      "Photos and videos from the technician",
+      "Approve extra work with one tap",
+      "Pay by link and get an e-receipt"
+    ],
+    "caption": "Fewer “so how's my car?” calls",
+    "chat": {
+      "name": "Your repair shop",
+      "status": "bot · replies instantly",
+      "accepted": "Toyota RAV4 checked in to bay 2. Mileage 87,450 km.",
+      "found": "The technician found worn brake discs 👆",
+      "ask": "Add disc replacement for 2 300 ₴?",
+      "approve": "Approve",
+      "later": "Later",
+      "approved": "Approve",
+      "ready": "Your car is ready! Amount due 5 400 ₴",
+      "pay": "Pay online",
+      "receipt": "Fiscal receipt sent",
+      "reminder": "Service is due in 2,550 km. Book you in?",
+      "times": [
+        "09:12",
+        "11:40",
+        "11:41",
+        "16:05",
+        "16:20"
+      ]
+    }
+  },
+  "audience": {
+    "eyebrow": "Who it's for",
+    "title": "For shops where the owner checks cars in personally",
+    "more": "Learn more",
+    "items": [
+      {
+        "id": "sto",
+        "title": "1–4 bay repair shops",
+        "text": "Mechanical repair, diagnostics, servicing. Bays, labour hours, stock — no dedicated admin needed.",
+        "href": "#"
+      },
+      {
+        "id": "tires",
+        "title": "Tyre shops",
+        "text": "Seasonal peaks, walk-in queue, tyre hotel and bulk reminders to swap tyres.",
+        "href": "#"
+      },
+      {
+        "id": "detailing",
+        "title": "Detailing",
+        "text": "Service packages, multi-day jobs, before/after photos.",
+        "href": "#"
+      },
+      {
+        "id": "network",
+        "title": "Chains and fleets",
+        "text": "Several locations, a shared customer base, consolidated reports and company vehicles.",
+        "href": "#"
+      }
+    ]
+  },
+  "mobile": {
+    "eyebrow": "Technician app",
+    "title": "A tablet on the shop floor instead of a notebook in the pocket",
+    "master": {
+      "title": "For technicians",
+      "points": [
+        "Your own work orders as large cards",
+        "Traffic-light checklist: OK, attention, urgent",
+        "Job timer against labour hours",
+        "Photos and voice notes for recommendations"
+      ]
+    },
+    "owner": {
+      "title": "For owners",
+      "points": [
+        "Daily and monthly revenue dashboard",
+        "Bay utilization",
+        "Debts and unpaid work orders",
+        "Alerts on important events"
+      ]
+    },
+    "pwa": "Already works as an app from the phone browser (PWA) — install it to your home screen.",
+    "soon": "Coming soon to",
+    "tablet": {
+      "order": "#1048 · Toyota RAV4",
+      "job": "Brake pad replacement",
+      "timer": "Timer",
+      "norm": "standard 1.2 h",
+      "checks": [
+        [
+          "Front pads",
+          "3 mm",
+          "urgent"
+        ],
+        [
+          "Brake discs",
+          "worn",
+          "warn"
+        ],
+        [
+          "Shock absorbers",
+          "dry",
+          "ok"
+        ]
+      ],
+      "levels": {
+        "ok": "OK",
+        "warn": "Attention",
+        "urgent": "Urgent"
+      },
+      "voice": "Dictate a recommendation",
+      "photo": "Photo",
+      "done": "Job done"
+    }
+  },
+  "integrations": {
+    "eyebrow": "Integrations",
+    "title": "Works with the services you already use",
+    "note": "Logos are placeholders. The list of integrations is being finalized.",
+    "groups": [
+      {
+        "title": "Fiscal (PRRO)",
+        "items": [
+          "Checkbox",
+          "Vchasno.Kasa",
+          "Cashalot"
+        ]
+      },
+      {
+        "title": "Payments",
+        "items": [
+          "LiqPay",
+          "mono",
+          "WayForPay"
+        ]
+      },
+      {
+        "title": "Messengers",
+        "items": [
+          "Telegram",
+          "Viber",
+          "WhatsApp"
+        ]
+      },
+      {
+        "title": "SMS",
+        "items": [
+          "SMS gateway"
+        ]
+      },
+      {
+        "title": "Telephony",
+        "items": [
+          "Binotel",
+          "Ringostat"
+        ]
+      },
+      {
+        "title": "Parts",
+        "items": [
+          "Supplier catalogs"
+        ]
+      },
+      {
+        "title": "API & webhooks",
+        "items": [
+          "REST API",
+          "Webhooks"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "eyebrow": "Security & reliability",
+    "title": "Your data is protected",
+    "items": [
+      {
+        "icon": "server",
+        "title": "EU hosting",
+        "text": "Servers in European Union data centers."
+      },
+      {
+        "icon": "database",
+        "title": "Daily backups",
+        "text": "Backups every day, restore to any date."
+      },
+      {
+        "icon": "users",
+        "title": "Roles & permissions",
+        "text": "Technicians see only their work orders, the cash desk only those responsible."
+      },
+      {
+        "icon": "shield",
+        "title": "2FA & audit log",
+        "text": "Two-factor login and a history of who changed what and when."
+      }
+    ]
+  },
+  "pilot": {
+    "eyebrow": "Pilot programme",
+    "title": "We're looking for 5 shops to pilot",
+    "text": "Free for 3–6 months in exchange for feedback. You run your shop in the system; we listen and improve it.",
+    "terms": [
+      "Free for 3–6 months",
+      "Data migration and setup are on us",
+      "Direct Telegram chat with the team",
+      "In return — feedback and an honest review"
+    ],
+    "slot": "Spot",
+    "slotsLabel": "5 spots in the pilot programme",
+    "cta": "Apply for the pilot"
+  },
+  "pricing": {
+    "eyebrow": "Pricing",
+    "title": "Everything essential — in one plan",
+    "subtitle": "No extra charge for online estimate approval, a customer bot or technician payroll.",
+    "perMonth": "/mo",
+    "popular": "For a single shop",
+    "placeholder": "[PLACEHOLDER]",
+    "note": "Prices exclude VAT · Billed monthly",
+    "promises": [
+      "No setup fee",
+      "Monthly, no annual contract",
+      "Telegram support on every plan"
+    ],
+    "plans": [
+      {
+        "id": "sto",
+        "name": "Shop",
+        "desc": "Everything for one shop — from booking to payroll",
+        "price": "[000 ₴]",
+        "limits": "up to [N] users · 1 location",
+        "features": [
+          "Work orders, estimates and online approval",
+          "Bookings and bay calendar",
+          "Digital inspection and body diagram",
+          "Stock with reservations per order",
+          "Till and fiscal receipts (PRRO)",
+          "Technician payroll",
+          "Telegram bot and repair page for customers",
+          "Owner reports"
+        ],
+        "cta": "Try free for 14 days"
+      },
+      {
+        "id": "network",
+        "name": "Chain",
+        "desc": "For several locations and complex stock",
+        "price": "[000 ₴]",
+        "limits": "unlimited · 2+ locations",
+        "features": [
+          "Everything in “Shop”",
+          "Multiple locations and warehouses",
+          "Bin locations and supplier purchasing",
+          "Consolidated chain reports",
+          "REST API and webhooks",
+          "Dedicated account manager"
+        ],
+        "cta": "Discuss terms"
+      }
+    ]
+  },
+  "migration": {
+    "eyebrow": "Switching from another system",
+    "title": "Move over for free — in one day",
+    "text": "No setup or migration fees. Send us an export — we do the rest, and your shop never stops.",
+    "from": "From",
+    "sources": [
+      "RO App",
+      "Carbook",
+      "1C",
+      "Excel"
+    ],
+    "steps": [
+      {
+        "time": "09:00",
+        "text": "You send us an export"
+      },
+      {
+        "time": "12:00",
+        "text": "We import customers, vehicles, repair history and stock"
+      },
+      {
+        "time": "15:00",
+        "text": "We set up bays, price list and roles"
+      },
+      {
+        "time": "18:00",
+        "text": "We train your team — tomorrow you work in the system"
+      }
+    ],
+    "cta": "Discuss migration"
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "Frequently asked questions",
+    "items": [
+      {
+        "q": "How does the free trial work?",
+        "a": "14 days of full access to every feature, no card required. When it ends, pick a plan — all your data is kept."
+      },
+      {
+        "q": "How are you different from other repair-shop CRMs?",
+        "a": "We only do auto repair: labour hours, mileage and mileage-based service, part cross-references, completion certificates. Everything essential is in one plan with no setup fee, and revenue is counted by payment date, so you can trust the reports."
+      },
+      {
+        "q": "Do you support fiscal receipts (PRRO)?",
+        "a": "Yes. Fiscal receipts are issued automatically via Checkbox, Vchasno.Kasa or Cashalot for cash, card or payment-link payments."
+      },
+      {
+        "q": "Can I work offline?",
+        "a": "The system is cloud-based and needs internet. If the connection drops, the mobile app keeps photos and statuses and syncs them as soon as you're back online."
+      },
+      {
+        "q": "How do I migrate from Excel or another CRM?",
+        "a": "Send us an export — we'll import customers, vehicles, repair history and stock for free. There are ready-made templates for RO App, Carbook, 1C and Excel."
+      },
+      {
+        "q": "How many users can I add?",
+        "a": "It depends on the plan. Roles and permissions are set per person: owner, admin, service advisor, technician, storekeeper."
+      },
+      {
+        "q": "Is there a mobile app?",
+        "a": "Yes, currently as a PWA you install from the browser to your home screen. Native iOS and Android apps are in development."
+      },
+      {
+        "q": "How secure is my data?",
+        "a": "Data is stored on EU servers with daily backups; access is protected by roles, 2FA and an audit log."
+      },
+      {
+        "q": "How do I cancel my subscription?",
+        "a": "Anytime in your account, no calls or explanations needed. You can export all your data to Excel."
+      },
+      {
+        "q": "Is there an API?",
+        "a": "Yes. A REST API and webhooks are available on the “Chain” plan."
+      },
+      {
+        "q": "Will you help with setup?",
+        "a": "Yes. A manager will run online training for your team and help set up bays, price list and inventory — usually within one day."
+      }
+    ]
+  },
+  "finalCta": {
+    "title": "Run your shop on the new system tomorrow",
+    "subtitle": "Leave a request — we'll open access and help you set up.",
+    "form": {
+      "name": "Name",
+      "namePh": "Alex",
+      "phone": "Phone",
+      "phonePh": "+380 XX XXX XX XX",
+      "posts": "Number of bays",
+      "postsPh": "Select",
+      "postsOptions": [
+        "1",
+        "2–3",
+        "4–6",
+        "7–10",
+        "More than 10 / chain"
+      ],
+      "city": "City",
+      "cityPh": "Kyiv",
+      "submit": "Get access",
+      "sending": "Sending…",
+      "success": "Thank you! We'll get back to you within one business day.",
+      "error": "Couldn't send your request. Please try again or message us on Telegram.",
+      "consent": "By clicking the button you agree to the privacy policy.",
+      "required": "required",
+      "errors": {
+        "name": "Please enter your name",
+        "phone": "Enter a number in the format +380 XX XXX XX XX",
+        "posts": "Please select the number of bays",
+        "city": "Please enter your city"
+      }
+    },
+    "or": "or",
+    "telegram": "Message us on Telegram",
+    "ticket": "Connection request"
+  },
+  "footer": {
+    "tagline": "Cloud CRM for auto repair shops, tire services and detailing.",
+    "sections": "Sections",
+    "contacts": "Contacts",
+    "legal": "Legal",
+    "privacy": "Privacy policy",
+    "offer": "Terms of service",
+    "social": "Follow us",
+    "rights": "All rights reserved."
+  },
+  "mock": {
+    "orderNo": "Work order #1048",
+    "status": "In progress",
+    "client": "Customer",
+    "clientName": "Oleksandr K.",
+    "car": "Vehicle",
+    "carName": "Toyota RAV4 · AA 1234 BK",
+    "mileage": "Mileage",
+    "mileageValue": "87,450 km",
+    "post": "Bay",
+    "postValue": "Bay 2 · Ivan M.",
+    "works": "Labor",
+    "parts": "Parts",
+    "hours": "h",
+    "total": "Total",
+    "workRows": [
+      "Brake pad replacement",
+      "Suspension diagnostics",
+      "Engine oil change"
+    ],
+    "partRows": [
+      "Front brake pads",
+      "Oil 5W-30, 5 L",
+      "Oil filter"
+    ],
+    "approved": "Approved by customer",
+    "pay": "Pay",
+    "checklist": "Check-in checklist",
+    "checkItems": [
+      "Photos from 4 sides",
+      "Mileage and fuel level",
+      "Body diagram",
+      "Customer signature"
+    ],
+    "photos": "Photos",
+    "done": "Done",
+    "kanban": [
+      "Booked",
+      "Check-in",
+      "In progress",
+      "Ready"
+    ],
+    "calendar": "Bay calendar",
+    "days": [
+      "Mon",
+      "Tue",
+      "Wed",
+      "Thu",
+      "Fri"
+    ],
+    "posts": [
+      "Bay 1",
+      "Bay 2",
+      "Bay 3"
+    ],
+    "estimate": "Estimate",
+    "approve": "Approve",
+    "decline": "Decline",
+    "stock": "Inventory",
+    "inStock": "in stock",
+    "reserved": "reserved",
+    "toOrder": "to order",
+    "cash": "Cash desk",
+    "receipt": "Fiscal receipt",
+    "fiscalized": "Fiscalized",
+    "payroll": "Monthly payroll",
+    "masters": [
+      "Ivan M.",
+      "Petro S.",
+      "Andrii L."
+    ],
+    "history": "Vehicle history",
+    "historyRows": [
+      "80,000 km service",
+      "Tire change (winter)",
+      "Diagnostics"
+    ],
+    "reminder": "Reminder: service due in 2,550 km",
+    "clientPageTitle": "Your repair",
+    "progress": "Step 3 of 5",
+    "timeline": [
+      "Checked in",
+      "Diagnosis",
+      "Repair",
+      "Quality check",
+      "Handover"
+    ],
+    "masterPhoto": "Photo from technician",
+    "extraWork": "Additional work",
+    "extraWorkName": "Brake disc replacement",
+    "payOnline": "Pay online",
+    "revenue": "Revenue",
+    "profit": "Profit",
+    "avgCheck": "Average ticket",
+    "debts": "Receivables",
+    "postLoad": "Bay utilization",
+    "masterOutput": "Technician output",
+    "month": "This month",
+    "today": "Today",
+    "myOrders": "My work orders",
+    "scan": "Scan",
+    "demoData": "Demo data"
+  }
+}
