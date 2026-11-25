@@ -676,6 +676,8 @@
     "clientName": "Александр К.",
     "car": "Авто",
     "carName": "Toyota RAV4 · AA 1234 BK",
+    "plateStyle": "ua",
+    "plateCode": "UA",
     "mileage": "Пробег",
     "mileageValue": "87 450 км",
     "post": "Пост",

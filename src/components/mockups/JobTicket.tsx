@@ -36,14 +36,56 @@ export function CarBlueprint({ className }: { className?: string }) {
   );
 }
 
-function UaPlate({ number }: { number: string }) {
+/** 12 yellow stars in a ring — the EU band emblem, drawn small */
+function EuStars() {
   return (
-    <span className="inline-flex h-8 items-stretch overflow-hidden rounded-md bg-white ring-2 ring-ink">
-      <span className="flex w-5 flex-col items-center justify-between bg-[#0057b8] pt-1 pb-0.5 text-[8px] font-bold text-white">
-        <span className="h-1.5 w-3 rounded-[1px] bg-[#ffd700]" />
-        UA
+    <svg viewBox="0 0 12 12" className="size-3" aria-hidden="true">
+      {Array.from({ length: 12 }, (_, i) => {
+        const a = (i / 12) * Math.PI * 2;
+        return <circle key={i} cx={6 + 4.6 * Math.sin(a)} cy={6 - 4.6 * Math.cos(a)} r="0.85" fill="#ffcc00" />;
+      })}
+    </svg>
+  );
+}
+
+/** Small Israeli flag: white field, two blue stripes, blue star */
+function IlFlag() {
+  return (
+    <svg viewBox="0 0 16 11" className="h-[7px] w-[10px] rounded-[1px]" aria-hidden="true">
+      <rect width="16" height="11" fill="#fff" />
+      <rect y="1.2" width="16" height="1.4" fill="#0038b8" />
+      <rect y="8.4" width="16" height="1.4" fill="#0038b8" />
+      <path d="M8 3.2 9.6 6 8 8.8 6.4 6Z M6.4 4.4H9.6L8 7.4Z" fill="none" stroke="#0038b8" strokeWidth="0.6" />
+    </svg>
+  );
+}
+
+/**
+ * Licence plate in the market's style — always laid out left-to-right,
+ * like the real plate, even on the Hebrew (RTL) page.
+ *  ua: white, blue band with flag + UA
+ *  eu: white, EU blue band with star ring + country code
+ *  il: yellow, blue band with flag + IL
+ */
+function Plate({ number, style, code }: { number: string; style: string; code: string }) {
+  const il = style === "il";
+  return (
+    <span
+      dir="ltr"
+      className={cn("inline-flex h-8 items-stretch overflow-hidden rounded-md ring-2 ring-ink", il ? "bg-[#ffcc00]" : "bg-white")}
+    >
+      <span
+        className={cn(
+          "flex w-5 flex-col items-center justify-between pt-1 pb-0.5 text-[8px] leading-none font-bold text-white",
+          style === "ua" ? "bg-[#0057b8]" : "bg-[#003399]",
+        )}
+      >
+        {style === "ua" && <span className="h-1.5 w-3 rounded-[1px] bg-[#ffd700]" />}
+        {style === "eu" && <EuStars />}
+        {il && <IlFlag />}
+        {code}
       </span>
-      <span className="tabular flex items-center px-2 font-mono text-[15px] font-bold tracking-[0.12em] text-ink">
+      <span className="flex items-center px-2 font-mono text-[15px] font-bold tracking-[0.12em] whitespace-nowrap text-ink">
         {number}
       </span>
     </span>
@@ -84,7 +126,7 @@ export function JobTicketMock({ m }: { m: M }) {
               <p className="text-[11px] font-semibold tracking-wide text-ink-3 uppercase">{m.car}</p>
               <p className="font-display text-lg font-extrabold text-ink">{carModel}</p>
             </div>
-            {plate && <UaPlate number={plate} />}
+            {plate && <Plate number={plate} style={m.plateStyle} code={m.plateCode} />}
           </div>
 
           <dl className="mt-4 grid grid-cols-3 gap-2 text-[11px]">
