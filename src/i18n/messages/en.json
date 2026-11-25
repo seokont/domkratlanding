@@ -470,9 +470,9 @@
   "pilot": {
     "eyebrow": "Pilot programme",
     "title": "We're looking for 5 shops to pilot",
-    "text": "Free for 3–6 months in exchange for feedback. You run your shop in the system; we listen and improve it.",
+    "text": "Free for 60 days in exchange for feedback. You run your shop in the system; we listen and improve it.",
     "terms": [
-      "Free for 3–6 months",
+      "Free for 60 days",
       "Data migration and setup are on us",
       "Direct Telegram chat with the team",
       "In return — feedback and an honest review"
@@ -483,51 +483,88 @@
   },
   "pricing": {
     "eyebrow": "Pricing",
-    "title": "Everything essential — in one plan",
-    "subtitle": "No extra charge for online estimate approval, a customer bot or technician payroll.",
+    "title": "Modern workshop management without enterprise pricing",
+    "subtitle": "No extra charge for online approval, a customer status page or technician payroll.",
     "perMonth": "/mo",
-    "popular": "For a single shop",
-    "placeholder": "[PLACEHOLDER]",
-    "note": "Prices exclude VAT · Billed monthly",
+    "popular": "Most popular",
+    "currency": "USD",
+    "note": "Prices exclude local VAT · Billed monthly or annually",
+    "offer": "Launch offer: first 20 shops — $69/mo for the first 6 months",
+    "extras": "Billed separately: SMS and WhatsApp messages at provider rates, payment processing fees, third-party VIN and labor-guide databases.",
     "promises": [
-      "No setup fee",
-      "Monthly, no annual contract",
-      "Telegram support on every plan"
+      "14-day free trial, no card",
+      "Free migration and setup",
+      "Annual plans: 2 months free"
     ],
     "plans": [
       {
-        "id": "sto",
-        "name": "Shop",
-        "desc": "Everything for one shop — from booking to payroll",
-        "price": "[000 ₴]",
-        "limits": "up to [N] users · 1 location",
+        "from": "",
+        "yearly": "or $490/year",
+        "featured": false,
+        "id": "starter",
+        "name": "Starter",
+        "desc": "For solo mechanics and 1–2 bay workshops",
+        "price": "$49",
+        "limits": "up to 2 users",
         "features": [
-          "Work orders, estimates and online approval",
-          "Bookings and bay calendar",
-          "Digital inspection and body diagram",
-          "Stock with reservations per order",
-          "Till and fiscal receipts (PRRO)",
-          "Technician payroll",
-          "Telegram bot and repair page for customers",
-          "Owner reports"
+          "Customers and vehicles",
+          "Calendar",
+          "Work orders",
+          "Basic invoices and estimates",
+          "Repair history",
+          "Mobile access",
+          "Email notifications"
         ],
-        "cta": "Try free for 14 days"
+        "cta": "Start 14 days free"
       },
       {
-        "id": "network",
-        "name": "Chain",
-        "desc": "For several locations and complex stock",
-        "price": "[000 ₴]",
-        "limits": "unlimited · 2+ locations",
+        "from": "",
+        "yearly": "or $1,190/year",
+        "featured": true,
+        "id": "professional",
+        "name": "Professional",
+        "desc": "The main plan for 2–6 bay shops",
+        "price": "$119",
+        "limits": "up to 10 users · 1 location",
         "features": [
-          "Everything in “Shop”",
-          "Multiple locations and warehouses",
-          "Bin locations and supplier purchasing",
-          "Consolidated chain reports",
-          "REST API and webhooks",
-          "Dedicated account manager"
+          "Unlimited work orders",
+          "Roles and permissions",
+          "Digital inspection with photos and video",
+          "Online approval",
+          "Inventory, purchasing and write-offs",
+          "Parts reservation",
+          "Technician payroll",
+          "Customer repair-status page",
+          "Automatic reminders",
+          "Payment integrations",
+          "Advanced reports",
+          "Import from Excel or another CRM",
+          "Basic API"
         ],
-        "cta": "Discuss terms"
+        "cta": "Start 14 days free"
+      },
+      {
+        "from": "from",
+        "yearly": "or $2,990/year",
+        "featured": false,
+        "id": "business",
+        "name": "Business",
+        "desc": "For chains, fleets and service groups",
+        "price": "$299",
+        "limits": "2+ locations · extra location $59–79/mo",
+        "features": [
+          "Everything in Professional",
+          "Multiple locations and warehouses",
+          "Shared customer base",
+          "Consolidated reports",
+          "Advanced permissions",
+          "Centralized price list",
+          "Technician performance tracking",
+          "API and webhooks",
+          "Account manager and SLA",
+          "Onboarding support"
+        ],
+        "cta": "Book a 20-minute demo"
       }
     ]
   },
@@ -604,7 +641,7 @@
       },
       {
         "q": "Is there an API?",
-        "a": "Yes. A REST API and webhooks are available on the “Chain” plan."
+        "a": "Yes. A basic API is included in Professional; full API and webhooks come with Business."
       },
       {
         "q": "Will you help with setup?",

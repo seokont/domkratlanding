@@ -34,7 +34,7 @@ export default async function LandingPage({ params }: PageProps<"/[lang]">) {
         "@type": "Offer",
         description: d.hero.ctaPrimary,
         price: "0",
-        priceCurrency: "UAH",
+        priceCurrency: d.pricing.currency,
       },
     },
     {
