@@ -243,23 +243,23 @@
       "rows": [
         [
           "Revenue (by payment date)",
-          "486 200 ₴"
+          "$11,850"
         ],
         [
           "Parts at cost",
-          "−171 900 ₴"
+          "−$4,190"
         ],
         [
           "Technician payroll",
-          "−97 300 ₴"
+          "−$2,370"
         ],
         [
           "Cancelled orders",
-          "0 ₴"
+          "$0"
         ]
       ],
       "total": "Gross profit",
-      "totalValue": "217 000 ₴",
+      "totalValue": "$5,290",
       "late": "Paid 31.10, entered 02.11",
       "lateTag": "→ in October",
       "stamp": "Matches the till"
@@ -281,11 +281,11 @@
       "status": "bot · replies instantly",
       "accepted": "Toyota RAV4 checked in to bay 2. Mileage 87,450 km.",
       "found": "The technician found worn brake discs 👆",
-      "ask": "Add disc replacement for 2 300 ₴?",
+      "ask": "Add disc replacement for $140?",
       "approve": "Approve",
       "later": "Later",
       "approved": "Approve",
-      "ready": "Your car is ready! Amount due 5 400 ₴",
+      "ready": "Your car is ready! Amount due $320",
       "pay": "Pay online",
       "receipt": "Fiscal receipt sent",
       "reminder": "Service is due in 2,550 km. Book you in?",
@@ -710,10 +710,16 @@
     "parts": "Parts",
     "hours": "h",
     "total": "Total",
+    "totalValue": "$320",
     "workRows": [
       "Brake pad replacement",
       "Suspension diagnostics",
       "Engine oil change"
+    ],
+    "workSums": [
+      "$90",
+      "$60",
+      "$40"
     ],
     "partRows": [
       "Front brake pads",

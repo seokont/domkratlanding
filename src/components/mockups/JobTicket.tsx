@@ -53,9 +53,9 @@ function UaPlate({ number }: { number: string }) {
 export function JobTicketMock({ m }: { m: M }) {
   const [carModel, plate = ""] = m.carName.split(" · ");
   const works = [
-    { name: m.workRows[0], sum: "1 080" },
-    { name: m.workRows[1], sum: "720" },
-    { name: m.workRows[2], sum: "450" },
+    { name: m.workRows[0], sum: m.workSums[0] },
+    { name: m.workRows[1], sum: m.workSums[1] },
+    { name: m.workRows[2], sum: m.workSums[2] },
   ];
   const stage = 2; // current step of m.timeline (0-based)
   const last = m.timeline.length - 1;
@@ -116,7 +116,7 @@ export function JobTicketMock({ m }: { m: M }) {
                 <span className={cn("flex-1", i < 2 ? "text-ink-3 line-through decoration-ink-3/40" : "text-ink-2")}>
                   {w.name}
                 </span>
-                <span className="tabular font-semibold text-ink">{w.sum} ₴</span>
+                <span className="tabular font-semibold text-ink">{w.sum}</span>
               </li>
             ))}
           </ul>
@@ -166,7 +166,7 @@ export function JobTicketMock({ m }: { m: M }) {
         <div className="flex items-center justify-between gap-3 px-5 pt-4 pb-5">
           <div>
             <p className="text-[11px] font-semibold tracking-wide text-ink-3 uppercase">{m.total}</p>
-            <p className="tabular font-display text-2xl font-extrabold text-ink">5 400 ₴</p>
+            <p className="tabular font-display text-2xl font-extrabold text-ink">{m.totalValue}</p>
           </div>
           <div className="flex items-center gap-2 rounded-xl bg-success-soft px-3 py-2 text-success">
             <CreditCard className="size-4 shrink-0" />
@@ -185,7 +185,7 @@ export function JobTicketMock({ m }: { m: M }) {
       </div>
 
       {/* floating: key tag */}
-      <div className="absolute -bottom-7 -inset-s-3 animate-swing-in hidden rotate-[-7deg] items-center gap-2 rounded-s-[2rem] rounded-e-xl bg-accent py-2 pe-4 ps-3 shadow-lift sm:flex xl:-inset-s-8">
+      <div className="absolute -bottom-12 -inset-s-3 animate-swing-in hidden rotate-[7deg] items-center rtl:rotate-[-7deg] gap-2 rounded-s-[2rem] rounded-e-xl bg-accent py-2 pe-4 ps-3 shadow-lift sm:flex xl:-inset-s-8">
         <span className="size-4 rounded-full bg-bg ring-2 ring-accent-ink/30" />
         <span className="tabular font-mono text-lg font-extrabold text-ink">#1048</span>
         <Clock className="size-4 text-accent-ink" />
